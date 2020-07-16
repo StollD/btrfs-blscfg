@@ -1,0 +1,6 @@
+[Unit]
+Description=BLSCFG generator for BTRFS snapshots
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/btrfs-blscfg

@@ -1,0 +1,9 @@
+[Unit]
+Description=BLSCFG generator for BTRFS snapshots
+
+[Path]
+PathChanged=/boot
+PathChanged=/.snapshots
+
+[Install]
+WantedBy=default.target
